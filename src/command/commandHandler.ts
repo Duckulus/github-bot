@@ -8,12 +8,12 @@ import { overwriteCommands } from "./applicationCommand";
 
 import { ApplicationCommandType } from "discord-api-types/v10";
 import { logger } from "../util/logger";
-import { pingCommad } from "./impl/ping";
+import { userCommand } from "./impl/user";
 
 const commands: Command[] = [];
 
 export const initCommands = async () => {
-  register(pingCommad);
+  register(userCommand);
   await overwriteCommands(commands);
 };
 
