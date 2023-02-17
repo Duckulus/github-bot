@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  github-bot:
+    build: .
+    image: duckulus/github-bot
+    env_file:
+      - .env
