@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc -b",
-    "start": "env-cmd node ."
+    "start": "env-cmd --silent node ."
   },
   "devDependencies": {
     "discord-api-types": "^0.37.34",
