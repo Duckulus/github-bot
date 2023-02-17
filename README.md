@@ -1,5 +1,7 @@
 # `github-bot`
 
+<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png" alt="Github Logo" width="300"/>
+
 This is a WIP discord bot that fetches data from GitHub's [Rest Api](https://docs.github.com/en/rest) and embeds it into Discord messages
 
 ## Example
